@@ -84,5 +84,5 @@ date_format=$(get "@onedark_date_format" "%d/%m/%Y")
 set "status-right" "#[fg=$onedark_white,bg=$onedark_black,nounderscore,noitalics] #[fg=$onedark_visual_grey,bg=$onedark_black]#[fg=$onedark_visual_grey,bg=$onedark_visual_grey]#[fg=$onedark_white, bg=$onedark_visual_grey]${status_widgets} #[fg=$onedark_green,bg=$onedark_visual_grey,nobold,nounderscore,noitalics]#[fg=$onedark_black,bg=$onedark_green,bold] ${date_format} ${time_format} #[fg=$onedark_yellow, bg=$onedark_green]#[fg=$onedark_red,bg=$onedark_yellow]"
 set "status-left" "#[fg=$onedark_blue,bg=$onedark_black]  #[fg=$onedark_white,bg=$onedark_black]#S"
 
-set "window-status-format" "#[fg=$onedark_black,bg=$onedark_black,nobold,nounderscore,noitalics]#[fg=$onedark_white,bg=$onedark_black] #I: #W #[fg=$onedark_black,bg=$onedark_black,nobold,nounderscore,noitalics]"
+set "window-status-format" "#[fg=$onedark_white,bg=$onedark_black] #I: #W  "
 set "window-status-current-format" "#[fg=$onedark_black,bg=$onedark_green,nobold,nounderscore,noitalics]#[fg=$onedark_black,bg=$onedark_green,nobold] #I: #W #[fg=$onedark_green,bg=$onedark_black,nobold,nounderscore,noitalics]"
